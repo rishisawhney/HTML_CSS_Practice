@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.item {
+    background-color: gray;
+    color: white;
+    font-size: 24px;
+    padding: 10px;
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 2fr 1fr;
+}
